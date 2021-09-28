@@ -1,4 +1,4 @@
-# MatrixGame
+# TileMemoryGame
 It is a tile memory game to improve memory
 # 타일 기억 게임 - Tile Memory Game
 ![image](https://user-images.githubusercontent.com/50476562/135119638-5bcc49ff-e615-48a1-8f0c-629997002c0f.png)
