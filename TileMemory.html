@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Tile Memory Game</title>
+<link rel="stylesheet" href="TileStyle.css">
+</head>
+<body>
+	<article class="basic">
+		<section id="select" class="select" >
+			<h3>Tile Memory Game!</h3>
+			<label class="radiobtn">
+				3x3 <input type="radio" checked="checked" id="tileset" name="tileset" value="9">
+			</label><br><br>
+			<label class="radiobtn">
+				4x4 <input type="radio" id="tileset" name="tileset" value="16">
+			</label><br><br>
+			<label class="radiobtn">
+				5x5 <input type="radio" id="tileset" name="tileset" value="25">
+			</label><br><br>
+			<button id="start" class="startbtn" onclick="Start()">START!</button>
+		</section>
+		<section id="board" class="brd">
+		</section>
+		<article id="sub-board" class="sub-board">
+			<button id="play" class="playbtn" onClick="Play()">PLAY</button>
+			<button id="continue" class="continuebtn" onClick="Restart()">CONTINUE</button>
+			<button class="backbtn" onClick="Back()">BACK</button>
+			<label id="count" class="count">tiles : </label>
+		</article>
+		<h1 id="score" class="score">SCORE : 0</h1>
+	</article>
+	<script type="text/javascript" src="TileAct.js"></script>
+</body>
+</html>
