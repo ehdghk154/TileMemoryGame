@@ -5,7 +5,7 @@
 
 ## 개발 환경
 + 개발 기간 : 2020.09 ~ 2020.11 (3개월)
-+ 언어 : JavaScript, CSS, HTML
++ 언어 : JavaScript
 + IDE : Visual Studio Code
 
 
